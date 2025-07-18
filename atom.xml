@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Ninokz&#39;s Blog</title>
   
-  <subtitle>这是subtitle</subtitle>
+  <subtitle>你干嘛，哎哟</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -10,7 +10,7 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>Ninokz</name>
+    <name>Tinghao Zhou(周庭浩)</name>
     
   </author>
   
