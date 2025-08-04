@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-07-18T16:16:31.185Z</updated>
+  <updated>2025-07-19T12:57:21.290Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="http://example.com/posts/16107/"/>
     <id>http://example.com/posts/16107/</id>
     <published>2025-07-18T05:37:56.248Z</published>
-    <updated>2025-07-18T16:16:31.185Z</updated>
+    <updated>2025-07-19T12:57:21.290Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to My Blog<br>hahahha</p><p>test code</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">GNNLayer</span>(nn.Module):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, in_channel, out_channel, inter_dim=<span class="number">0</span>, heads=<span class="number">1</span>, node_num=<span class="number">100</span></span>):</span><br><span class="line">        <span class="built_in">super</span>(GNNLayer, <span class="variable language_">self</span>).__init__()</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.gnn = GraphLayer(in_channel, out_channel, inter_dim=inter_dim, heads=heads, concat=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.bn = nn.BatchNorm1d(out_channel)</span><br><span class="line">        <span class="variable language_">self</span>.relu = nn.ReLU()</span><br><span class="line">        <span class="variable language_">self</span>.leaky_relu = nn.LeakyReLU()</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.att_weight_1 = <span class="literal">None</span></span><br><span class="line">        <span class="variable language_">self</span>.edge_index_1 = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">forward</span>(<span class="params">self, x, edge_index, embedding=<span class="literal">None</span>, node_num=<span class="number">0</span></span>):</span><br><span class="line">        out, (new_edge_index, att_weight) = <span class="variable language_">self</span>.gnn(x, edge_index, embedding, return_attention_weights=<span class="literal">True</span>)</span><br><span class="line">        <span class="variable language_">self</span>.att_weight_1 = att_weight</span><br><span class="line">        <span class="variable language_">self</span>.edge_index_1 = new_edge_index</span><br><span class="line">        out = <span class="variable language_">self</span>.bn(out)</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.relu(out)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">这是description</summary>
+    <content type="html"><![CDATA[<p>Welcome to My Blog</p><p>这是模板文件</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">GNNLayer</span>(nn.Module):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, in_channel, out_channel, inter_dim=<span class="number">0</span>, heads=<span class="number">1</span>, node_num=<span class="number">100</span></span>):</span><br><span class="line">        <span class="built_in">super</span>(GNNLayer, <span class="variable language_">self</span>).__init__()</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.gnn = GraphLayer(in_channel, out_channel, inter_dim=inter_dim, heads=heads, concat=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.bn = nn.BatchNorm1d(out_channel)</span><br><span class="line">        <span class="variable language_">self</span>.relu = nn.ReLU()</span><br><span class="line">        <span class="variable language_">self</span>.leaky_relu = nn.LeakyReLU()</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.att_weight_1 = <span class="literal">None</span></span><br><span class="line">        <span class="variable language_">self</span>.edge_index_1 = <span class="literal">None</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">forward</span>(<span class="params">self, x, edge_index, embedding=<span class="literal">None</span>, node_num=<span class="number">0</span></span>):</span><br><span class="line">        out, (new_edge_index, att_weight) = <span class="variable language_">self</span>.gnn(x, edge_index, embedding, return_attention_weights=<span class="literal">True</span>)</span><br><span class="line">        <span class="variable language_">self</span>.att_weight_1 = att_weight</span><br><span class="line">        <span class="variable language_">self</span>.edge_index_1 = new_edge_index</span><br><span class="line">        out = <span class="variable language_">self</span>.bn(out)</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">self</span>.relu(out)</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
     
+    <summary type="html">这是 description</summary>
     
-    <category term="categories1" scheme="http://example.com/categories/categories1/"/>
+    
+    
+    <category term="分类1" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB1/"/>
     
     
   </entry>
